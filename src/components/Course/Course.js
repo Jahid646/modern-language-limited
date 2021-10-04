@@ -11,7 +11,7 @@ const Course = (props) => {
         <div className=" col-4 mx-auto g-3">
           <div className="card-container border border-danger shadow-lg">
             <Card className="h-100">
-        <Card.Img variant="top" src={img} className="rounded" height="380px"/>
+        <Card.Img variant="top" src={img}  height="350px"/>
         <Card.Body>
           <Card.Title>Learn {name}</Card.Title>
           <Card.Text>
