@@ -62,6 +62,13 @@ const courses = [
         key:'en9',
         duration: '240hrs',
         img: 'https://erasmuscoursescroatia.com/wp-content/uploads/2019/11/Improving-English-Language-Skills.jpg'
+    },
+    {
+        name: 'Chinese',
+        price: 559, 
+        key:'cn10',
+        duration: '260hrs',
+        img: 'https://thumbs.dreamstime.com/b/learning-chinese-language-vector-illustration-cartoon-flat-tiny-student-people-learn-online-distance-education-isolated-school-178064610.jpg'
     }
     
 ]

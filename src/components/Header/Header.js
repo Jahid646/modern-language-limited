@@ -14,8 +14,12 @@ const Header = () => {
         <div>
 
             <Container fluid>
-                <h1>Modern Language Limited</h1>
 
+                <div className="bg-dark text-white p-4">
+
+                
+                <h1>Welcome To <br /> Modern Language<span className="text-danger"> Limited!!!</span> </h1>
+            <hr />
             
             <NavLink
                 to="/home"
@@ -25,7 +29,7 @@ const Header = () => {
             </NavLink>
 
             <NavLink
-                to="/allcourses"
+                to="/courses"
                 activeStyle={styles}
                 className="mystyle"
 >
@@ -47,6 +51,7 @@ const Header = () => {
 >
                 Contact Us
             </NavLink>
+            </div>
             </Container>
         </div>
     );

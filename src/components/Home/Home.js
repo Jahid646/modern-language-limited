@@ -1,14 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
+import Course from '../Course/Course';
 
 import PopularCourses from '../PopularCourses/PopularCourses';
 
-const Home = () => {
+const Home = (props) => {
+    const [courses, setCourses] = useState([]);
+    useEffect( () => {
+        fetch('popularData.json')
+        .then(res => res.json())
+        .then(data => setCourses(data));
+    }, []);
     return (
         <div>
-           
-            <PopularCourses></PopularCourses>
-            
-        
+            <h2>Our Popular <span className="text-danger">Courses</span></h2>
+            <Container>
+                <Row>
+                    
+                         {
+                             courses.map(course => <PopularCourses
+                             
+                             course ={course}
+                             key={course.key}
+                             ></PopularCourses>)
+                             }
+                    
+                    
+                   
+                    
+                </Row>
+            </Container>
+
         </div>
     );
 };
