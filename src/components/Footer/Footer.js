@@ -11,6 +11,7 @@ const Footer = () => {
             <Container fluid>
 
                 <div className="bg-dark text-white mt-5 p-5">
+                  {/* Subscribe form  */}
                 <Form>
   <Form.Group className="mb-3">
     <Form.Label>Please Subscribe!!!</Form.Label>
@@ -23,6 +24,7 @@ const Footer = () => {
 
 </Form>
 <hr />
+{/* Copyright  */}
 <p>&copy; 2021-2022. All Rights Reserved.</p>
                 </div>
 

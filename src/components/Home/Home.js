@@ -11,6 +11,7 @@ const Home = (props) => {
     }, []);
     return (
         <div>
+            {/* Popular Courses Heading  */}
             <h2 className="p-3">Our Popular <span className="text-danger">Courses</span></h2>
             <Container>
                 <Row>

@@ -11,6 +11,7 @@ const AllCourses = () => {
     }, []);
     return (
         <div>
+            {/* Header of All Courses  */}
             <h2 className="p-3">Our All <span className="text-danger">Courses</span></h2>
             <Container>
                 <Row>
@@ -22,9 +23,6 @@ const AllCourses = () => {
                          ></Course>)
                         }
                    
-                    
-                   
-                    
                 </Row>
             </Container>
 

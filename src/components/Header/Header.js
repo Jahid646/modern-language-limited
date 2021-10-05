@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
+    // active style of Navlink 
     const styles = {
 
                 fontWeight: "bold",
@@ -17,10 +18,10 @@ const Header = () => {
 
                 <div className="bg-dark text-white p-4">
 
-                
+                {/* Heading  */}
                 <h1>Welcome To <br /> Modern Language<span className="text-danger"> Limited!!!</span> </h1>
             <hr />
-            
+            {/* NavLink  */}
             <NavLink
                 to="/home"
                 activeStyle={styles} className="mystyle"

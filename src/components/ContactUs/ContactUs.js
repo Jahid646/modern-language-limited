@@ -6,9 +6,10 @@ import { Form, Button, Container,Row, Col } from 'react-bootstrap';
 const ContactUs = () => {
     return (
         <>
+        {/* Header parts  */}
             <h1>Contact <span className="text-danger">Us</span> </h1>
 
-
+                {/* Contact Social Icon  */}
             <Container>
                 <Row className="p-5">
                     <Col>
@@ -44,7 +45,7 @@ const ContactUs = () => {
             <br />
                       
                    
-           
+           {/* Contact form  */}
                  <Container>
                  <div className="border p-2 shadow-lg"> 
                     <Form>

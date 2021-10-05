@@ -4,7 +4,7 @@ import './AboutUs.css'
 const AboutUs = () => {
     return (
         <div>
-            
+            {/* Header part of  bout */}
                 <div className="about-header p-3 m-5 shadow">
                 <small>Our Vision</small>
             <h3>We envision a world where anyone, anywhere has the power to transform their life through learning.</h3>
@@ -12,7 +12,7 @@ const AboutUs = () => {
             
 
             
-
+        {/* Middle part of about  */}
             <Container>
                 <Row>
                     <Col>
