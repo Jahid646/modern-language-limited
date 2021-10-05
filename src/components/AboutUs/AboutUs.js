@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div>
             
-                <div className="about-header m-5">
+                <div className="about-header p-3 m-5 shadow">
                 <small>Our Vision</small>
             <h3>We envision a world where anyone, anywhere has the power to transform their life through learning.</h3>
             </div>
@@ -20,13 +20,13 @@ const AboutUs = () => {
                     </Col>
                         
                     <Col>
-                        <img src="https://images.ctfassets.net/00atxywtfxvd/4vOWgNjy4KExR8msqHnJEP/bb1557d60e8a29f6a5f09148f700bff5/partner-logos.png" alt="" />
+                        <img className="border shadow mb-2" src="https://images.ctfassets.net/00atxywtfxvd/4vOWgNjy4KExR8msqHnJEP/bb1557d60e8a29f6a5f09148f700bff5/partner-logos.png" alt="" />
                     </Col>
                 </Row>
             </Container>
             
             <Container fluid>
-            <div className="about-header">
+            <div className="about-header p-3 shadow">
                 <h3>We believe</h3>
                 <p>
                 Learning is the source of human progress. <br />
@@ -52,13 +52,10 @@ to bring the best learning
 to every corner of the world. <br />
 
 So that anyone, anywhere has the power to
-transform their life through <learning className="br"></learning>
+transform their life through learning.
                 </p>
             </div>
             </Container>
-
-           
-
         </div>
     );
 };

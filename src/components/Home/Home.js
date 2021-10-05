@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import Course from '../Course/Course';
-
 import PopularCourses from '../PopularCourses/PopularCourses';
 
 const Home = (props) => {
@@ -13,7 +11,7 @@ const Home = (props) => {
     }, []);
     return (
         <div>
-            <h2>Our Popular <span className="text-danger">Courses</span></h2>
+            <h2 className="p-3">Our Popular <span className="text-danger">Courses</span></h2>
             <Container>
                 <Row>
                     

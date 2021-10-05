@@ -1,6 +1,6 @@
 
 import { Card, Button } from 'react-bootstrap';
-import Course from '../Course/Course';
+
 
 const PopularCourses = (props) => {
     const {name, price, duration, img} = props.course;

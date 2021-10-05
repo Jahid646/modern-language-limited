@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import {Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 
 const AllCourses = () => {
@@ -11,7 +11,7 @@ const AllCourses = () => {
     }, []);
     return (
         <div>
-            <h2>Our All <span className="text-danger">Courses</span></h2>
+            <h2 className="p-3">Our All <span className="text-danger">Courses</span></h2>
             <Container>
                 <Row>
                     
